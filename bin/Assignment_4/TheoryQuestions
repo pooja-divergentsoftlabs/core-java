@@ -1,0 +1,26 @@
+1 - When should the private methods be used in a class?
+ans- Private methods should be used in a particular class and methods but cannot be used outside the class. When we do not want to give the code access to the other 
+     methods or class then we use private methods,it is also used to break the task into smaller parts.
+
+2 - Do we need encapsulation for constants?
+ans- Yes we can use encapsulation for constants but it is not compulsory to use encapsulation for constants.
+
+
+3 What are two benefits of using the Factory methods?
+ans
+1-	In Factory method, it reduces the duplicacy of code.
+2-	In Factory method, we can have more names to give a method name .
+
+4- Overloading is compile time or runtime?
+ans-Overloading is compile time where more than one method can have same name with different parameters.
+
+5- What are the three ways of initializing instance variables?
+Ans-:The ways are-: final methods, constructors and  initialization blocks.
+
+6- Why "finalize" method is deprecated?
+Ans-:finalize() is used to clear the memory ,but it was deprecated because sometimes it does not do the job correctly so after
+that the garbage collector is introduced for collection of garbage or for clearing the memory.
+
+7-What is the proper way of naming a package in java, show using an example.
+Ans-:<domain reverse order>.<application name>.<group name>.
+

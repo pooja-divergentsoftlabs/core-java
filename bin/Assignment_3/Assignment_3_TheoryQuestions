@@ -1,0 +1,67 @@
+ASSINGNMENT  2
+
+1.Why String objects are called immutable?
+Because if the value is allocated to a string then we can not change that value. If we will change the value then the 
+new value will also be allocated but the previous value will not be deleted.
+
+
+2.How is String object created in memory?
+When we will create a object using string literal than it will be stored in the string constant pool, and when we will 
+create object using the new keyword then it will be stored in the heap memory and also in String constant pool.
+
+
+3.What are the advantages and disadvantages of String Immutability?
+Because of string immutability it takes a lot of memory ,the data is not deleted at any cost and on the other hand 
+immutable strings are cheap to copy, because you don't need to copy all the data just copy a reference or pointer to the data
+
+
+4.Why String objects are considered thread safe?
+String threads are safe because if you will try to change it so it will create the another memory reference so two thread can 
+not manipulate the same string reference.
+
+
+5.What are the advantages of declaring the String class final?
+The advantages of declaring the String class final is that it will be more secured and cannot be changed ahead by anyone.
+
+
+What memory optimization is performed by the Java environment for Strings?
+Why you don't have to calculate hash-code of the String object every time it's used?
+
+
+6.What is String literal?
+String literal is the object created by string without using the new keyword and by using the string literal the memory is 
+allocated in the string constant pool.
+
+
+7.What are the differences between String Literal and String Object?
+String literal----- String str ="pooja";
+String object------String str= new String("pooja");
+In string literal, it will create the object in the string constant pool only but in the case of string object using the 
+new keyword it will create the object in the string constant pool and as well as in the heap memory.
+
+
+8.How are the String Literals stored?
+String literals are stored in the string constant pool.
+
+
+9.What is String interning?
+String interning means storing only the one copy of the string having the same value .for ex- if pooja is written 10 times 
+then using intern we can ensure than only one pooja is allocated in the memory. 
+
+
+10.How can you intern a String Object?
+ When the intern() method is executed then it checks whether the String equals to this String Object is in the pool or not.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
